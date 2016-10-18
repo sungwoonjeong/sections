@@ -13,6 +13,10 @@ body {
 
 }
 
+section {
+    max-width: 25em;
+}
+
 img {
   max-width: 25em;
   display: inline;
