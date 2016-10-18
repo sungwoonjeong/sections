@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   background-color: #f2f2f2;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
 }
 
 *, *::before, *::after {
@@ -9,4 +11,9 @@ html {
 
 body {
 
+}
+
+img {
+  max-width: 25em;
+  display: inline;
 }
