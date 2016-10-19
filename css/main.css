@@ -15,23 +15,33 @@ body {
 
 section {
     max-width: 25em;
-    display: block;
+    display: inline-block;
     margin: 0;
     float: left;
     vertical-align: middle;
 }
 
  img {
+   float:left;
   max-width: 25em;
   width: 100%;
   padding: 0;
-  display: block;
-  float:left;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline
 }
 
 section h2 {
   display: inline-block;
+  vertical-align: middle;
   text-align: left;
+}
+
+section div {
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .btn {
@@ -42,4 +52,6 @@ section h2 {
   border: 2px solid;
   border-radius: 4px;
   text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
 }
