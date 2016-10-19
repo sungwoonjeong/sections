@@ -15,9 +15,15 @@ body {
 
 section {
     max-width: 25em;
+    display: block;
+    margin: 0;
 }
 
-img {
+section h2 {
+  display: inline-block;
+}
+
+section img {
   max-width: 25em;
   width: 100%;
   padding: 0;
