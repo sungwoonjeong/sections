@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  margin: 2rem;
+  margin: 1rem;
 }
 
 section {
@@ -34,14 +34,12 @@ section h2 {
   text-align: left;
 }
 
-section p {
-  text-align: left;
-}
-
 .btn {
+  list-style-type: none;
   display: inline-block;
   background-color: #f2f2f2;
   padding: 0.4em 0.75em 0.5em;
   border: 2px solid;
   border-radius: 4px;
+  text-align: center;
 }
