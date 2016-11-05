@@ -10,38 +10,35 @@ html {
 }
 
 body {
-  margin: 1rem;
+  margin: 1.5rem;
+}
+
+img {
+ max-width: 25em;
+ width: 100%;
+ display: inline;
 }
 
 section {
     max-width: 25em;
-    display: inline-block;
+    display: inline;
     margin: 0;
-    float: left;
-    vertical-align: middle;
 }
 
- img {
-   float:left;
-  max-width: 25em;
-  width: 100%;
+ section img {
+  float:left;
   padding: 0;
-  margin-right: 10px;
-  vertical-align: middle;
-  display: inline
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 section h2 {
-  display: inline-block;
-  vertical-align: middle;
+  display: inline;
   text-align: left;
 }
 
 section div {
-  display: inline-block;
-  float: left;
-  vertical-align: middle;
-  display: inline-block;
+  display: inline;
 }
 
 .btn {
@@ -54,4 +51,8 @@ section div {
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
+}
+
+.btn:hover {
+
 }
