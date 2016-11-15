@@ -39,6 +39,10 @@ section h2 {
   text-align: left;
 }
 
+section div {
+  display: inline;
+}
+
 
 .btn {
   list-style-type: none;
