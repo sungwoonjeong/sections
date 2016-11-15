@@ -10,13 +10,14 @@ html {
 }
 
 body {
-  margin: 1.5rem;
+  margin: 2rem;
 }
 
 img {
+ display: block;
  max-width: 25em;
  width: 100%;
- display: inline;
+ text-align: center;
 }
 
 section {
@@ -28,8 +29,9 @@ section {
  section img {
   float:left;
   padding: 0;
+  margin-top: 20px;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 section h2 {
@@ -37,9 +39,6 @@ section h2 {
   text-align: left;
 }
 
-section div {
-  display: inline;
-}
 
 .btn {
   list-style-type: none;
